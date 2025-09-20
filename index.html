@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SOCIETE INTEGRAL TECH (S.I.T) DRC.SARL - Accueil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="Screenshot_20250913-161227.jpg" alt="Logo Entreprise BTP" class="logo">
+    <h1>SOCITE INTEGRAL TECH DRC.SARL</h1>
+    <section id="Accueil">
+      <h1>Bienvenue sur notre site</h1>
+    <p class="tagline">Construction Métalique • Construction Prefabriqué • Construction des Batiments</p>
+    <nav class="main-nav">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Nos Services</a>
+      <a href="galerie.html">Galerie</a>
+      <a href="contact.html">Contact</a>
+    </section>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero slider" id="slider-entreprise">
+      <img src="IMG-20250910-WA0055_1.jpg" alt="Métalique 1" class="slide active">
+      <img src="IMG-20250910-WA0029.jpg" alt="Métalique 2" class="slide">
+      <img src="IMG-20250910-WA0046(1).jpg" alt="Métalique 3" class="slide">
+
+      <button class="prev" onclick="changerSlide('slider-Métalique', -1)" aria-label="Précédent">&#10094;</button>
+      <button class="next" onclick="changerSlide('slider-Métalique', 1)" aria-label="Suivant">&#10095;</button>
+
+      <div class="overlay">
+        <h2>Construction, structure et préfabrication</h2>
+        <p>Des solutions professionnelles en construction en structure de construction et en préfabrication, nous redonnent vie à vos projets anciennes avec des solutions modernes grâce à nos connaissance en construction, en rénouvélation et en préfabrication.</p>
+        <section id="contact">
+        <a class="cta" href="tel:+243 843 939 222">contactez-nous</a>
+      </section>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="service-card slider" id="slider-construction">
+        <img src="IMG-20250910-WA0055_1.jpg" alt="Prefabriqué 1" class="slide active">
+        <img src="IMG-20250910-WA0056(1).jpg" alt="Prefabriqué 2" class="slide">
+        <img src="IMG-20250910-WA0032(1)_1.jpg" alt="Prefabriqué 3" class="slide">
+        <div class="card-content">
+           <h3>Construction Préfabriqué</h3>
+          <p>Réalisation complète de projets résidentiels et commerciaux, nous vous aidons grâce à nos construction Préfabriqué qui vous ferons gagné plus de temps et d'argent.</p>
+        </div>
+        <button class="prev small" onclick="changerSlide('slider-Prefabriqué', -1)" aria-label="Précédent">&#10094;</button>
+        <button class="next small" onclick="changerSlide('slider-Prefabriqué', 1)" aria-label="Suivant">&#10095;</button>
+      </div>
+
+      <div class="service-card slider" id="slider-renovation">
+        <img src="IMG-20250910-WA0047.jpg" alt="Batiments 1" class="slide active">
+        <img src="IMG-20250910-WA0046(1).jpg" alt="Batiments 2" class="slide">
+        <img src="IMG-20250910-WA0048(1).jpg" alt="Batiments 3" class="slide">
+        <div class="card-content">
+          <h3>Construction Batiments</h3>
+          <p>Redonner vie à vos anciens projets avec des solutions modernes grâce à nos connaissance en construction Batiments, vos rêves peuvent devenir une réalité.</p>
+        </div>
+        <button class="prev small" onclick="changerSlide('slider-Batiments', -1)" aria-label="Précédent">&#10094;</button>
+        <button class="next small" onclick="changerSlide('slider-Batiments', 1)" aria-label="Suivant">&#10095;</button>
+      </div>
+
+      <div class="service-card slider" id="slider-ingenierie">
+        <img src="IMG-20250910-WA0064.jpg" alt="Prefabriqué 1" class="slide active">
+        <img src="IMG-20250910-WA0029.jpg" alt="Prefabriqué 2" class="slide">
+        <img src="IMG-20250910-WA0035.jpg" alt="Prefabriqué 3" class="slide">
+        <div class="card-content">
+          <h3>Construction Métalique</h3>
+          <p>Des solutions professionnelles en construction et en préfabrication, nous redonnent vie à vos projets anciennes avec des solutions modernes grâce à nos connaissance en construction métalique.</p>
+        </div>
+        <button class="prev small" onclick="changerSlide('slider-Prefabriqué', -1)" aria-label="Précédent">&#10094;</button>
+        <button class="next small" onclick="changerSlide('slider-Prefabriqué', 1)" aria-label="Suivant">&#10095;</button>
+      </div>
+    </section>
+
+    <section class="galerie-preview">
+      <h2>Nos réalisations</h2>
+      <div class="galerie-grid">
+        <a href="galerie.html"><img src="IMG-20250910-WA0071(1).jpg" alt="Projet 1"></a>
+        <a href="galerie.html"><img src="IMG-20250910-WA0051.jpg" alt="Projet 2"></a>
+        <a href="galerie.html"><img src="IMG-20250910-WA0062.jpg" alt="Projet 3"></a>
+        <a href="galerie.html"><img src="IMG-20250910-WA0045(2).jpg" alt="Projet 4"></a>
+        <a href="galerie.html"><img src="IMG-20250910-WA0027(1).jpg" alt="Projet 5"></a>
+        <a href="galerie.html"><img src="IMG-20250910-WA0049.jpg" alt="Projet 6"></a>
+        <a href="galerie.html"><img src="IMG-20250910-WA0066(1).jpg" alt="Projet 7"></a>
+        <a href="galerie.html"><img src="IMG-20250910-WA0034.jpg" alt="Projet 8"></a>
+      </div>
+      <p class="more"><a href="galerie.html">Voir toute la galerie</a></p>
+    </section>
+  </main>
+<script src="script.js"></script>
+</body>
+</html>
